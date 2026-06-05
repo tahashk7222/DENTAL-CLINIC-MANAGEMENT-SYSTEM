@@ -1,0 +1,2 @@
+1,Teeth Cleaning,2500
+1,Teeth pain,2500.0
