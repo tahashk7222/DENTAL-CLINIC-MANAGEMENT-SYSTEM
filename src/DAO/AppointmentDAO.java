@@ -16,7 +16,7 @@ public class AppointmentDAO {
 
             Connection con = DBConnection.getConnection();
 
-            String query = "INSERT INTO appointments(patient_name, doctor_name, appointment_date, treatment) VALUES (?, ?, ?, ?)";
+            String query = "INSERT INTO appointments(patient_name, " + "doctor_name, " + "appointment_date, " + "treatment) " + "VALUES (?, ?, ?, ?)";
 
             PreparedStatement pst = con.prepareStatement(query);
 

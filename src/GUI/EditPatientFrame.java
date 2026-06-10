@@ -85,6 +85,7 @@ public class EditPatientFrame extends JFrame implements ActionListener {
         updateButton.setBounds(120, 320, 150, 30);
         updateButton.addActionListener(this);
         add(updateButton);
+        getRootPane().setDefaultButton(updateButton);
 
         setVisible(true);
     }

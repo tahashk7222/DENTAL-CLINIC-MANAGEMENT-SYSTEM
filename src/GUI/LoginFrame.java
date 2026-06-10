@@ -55,12 +55,14 @@ public class LoginFrame extends JFrame implements ActionListener {
         loginButton.setBounds(70, 180, 100, 30);
         loginButton.addActionListener(this);
         add(loginButton);
+        getRootPane().setDefaultButton(loginButton);
 
         // Clear Button
         clearButton = new JButton("Clear");
         clearButton.setBounds(200, 180, 100, 30);
         clearButton.addActionListener(this);
         add(clearButton);
+
 
         // Make Visible
         setVisible(true);

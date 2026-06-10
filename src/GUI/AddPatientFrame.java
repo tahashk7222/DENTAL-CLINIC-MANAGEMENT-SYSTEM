@@ -72,6 +72,7 @@ public class AddPatientFrame extends JFrame implements ActionListener {
         addButton.setBounds(120, 280, 150, 30);
         addButton.addActionListener(this);
         add(addButton);
+        getRootPane().setDefaultButton(addButton);
 
         setVisible(true);
     }

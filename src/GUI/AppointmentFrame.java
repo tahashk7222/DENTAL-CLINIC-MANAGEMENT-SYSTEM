@@ -69,6 +69,7 @@ public class AppointmentFrame extends JFrame implements ActionListener {
         addButton.setBounds(110, 230, 170, 35);
         addButton.addActionListener(this);
         add(addButton);
+        getRootPane().setDefaultButton(addButton);
 
         setVisible(true);
     }

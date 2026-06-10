@@ -1,17 +1,12 @@
 package MODEL;
-
 public class Patient extends Person {
-
     private int patientId;
     private int age;
     private String gender;
     private String disease;
-
     public Patient() {
-
         super("", "");
     }
-
     public Patient(String name,
                    int age,
                    String gender,
